@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "ultraenchant",
+  "version": "${version}",
+  "name": "Ultra Enchant 10000",
+  "description": "Overlevel any enchantment on any item, with capped real multishot for thrown projectiles.",
+  "authors": ["ChatGPT"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["ru.example.ultraenchant.UltraEnchantMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
